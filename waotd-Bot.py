@@ -49,7 +49,7 @@ class waotdBot:
             username='WAOTD-bot'
             )
 
-        subreddit = reddit.subreddit('ffioniumsbots')
+        subreddit = reddit.subreddit('WAOTD')
         subreddit.submit(title=post, url=URLstring) 
 
 
